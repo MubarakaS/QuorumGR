@@ -1,0 +1,1 @@
+"""QuorumGR research implementation."""

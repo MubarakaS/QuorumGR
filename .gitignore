@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+desktop.ini
+
+# Exclude datasets and trained model weights
+data/CAMRa2011/
+checkpoints/
+*.pt
+*.pth
+
+# Keep final evaluation results
+results/*
+!results/camra_results.json
+!results/quorumgr_final_validation_report.json
+
+# Ignore Jupyter backup notebooks
+*-checkpoint.ipynb
